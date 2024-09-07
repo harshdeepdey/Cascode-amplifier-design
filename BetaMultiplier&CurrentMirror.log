@@ -1,0 +1,23 @@
+Circuit: * C:\Users\Harshdeep\OneDrive\Desktop\jk\Analog Lab\2021EEB1286\22nm\BetaMultiplier&CurrentMirror.asc
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Nov  7 22:56:36 2023
+Total elapsed time: 0.272 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2095
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 112
+fillins = 4
+solver = Normal
+Avg thread counts: 2.8/3.7/3.6/2.3
+Matrix Compiler1: 16.96 KB object code size  3.0/2.0/[1.1]
+Matrix Compiler2: 13.46 KB object code size  1.5/1.7/[0.5]
+

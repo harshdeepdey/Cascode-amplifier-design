@@ -1,0 +1,34 @@
+* C:\Users\Harshdeep\OneDrive\Desktop\jk\Analog Lab\2021EEB1286\22nm\BetaMultiplier&CurrentMirror.asc
+V1 VDD 0 0.8
+M5 Vbias3 Vbias3 0 0 NMOS l=990n w=22n
+M6 Vbias4 Vbias3 N004 N004 NMOS l=44n w=540n
+M7 N004 Vbias4 0 0 NMOS l=44n w=270n
+M8 Vbias2 Vbias3 N005 N005 NMOS l=44n w=55n
+M9 N005 Vbias4 0 0 NMOS l=44n w=660n
+M10 Vbias1 Vbias3 N006 N006 NMOS l=22n w=88n
+M11 N006 Vbias4 0 0 NMOS l=44n w=1503.25n
+M12 VDD Vbiasp Vbias3 VDD PMOS l=22n w=778n
+M13 VDD Vbiasp Vbias4 VDD PMOS l=44n w=440n
+M14 VDD Vbias2 Vbias2 VDD PMOS l=536.41n w=44n
+M16 VDD Vbias1 N001 VDD PMOS l=44n w=58.0856n
+M17 VDD N003 N003 VDD PMOS l=44n w=22n
+M18 VDD Vbiasp N008 VDD NMOS l=22n w=264n
+M19 VDD N002 N002 VDD PMOS l=22n w=264n
+M20 VDD N002 Vbiasp VDD PMOS l=22n w=264n
+M21 VDD Vbiasp N007 VDD PMOS l=22n w=264n
+M22 VDD Vbiasp VDD VDD PMOS l=22n w=22n
+M23 N003 N008 0 0 NMOS l=22n w=110n
+M24 Vbiasp N003 N008 N008 NMOS l=22n w=44n
+M25 N008 N008 0 0 NMOS l=22n w=110n
+M26 N002 N007 0 0 NMOS l=22n w=110n
+M27 Vbiasp N008 0 0 NMOS l=22n w=110n
+M28 N007 N007 N009 N009 NMOS l=22n w=110n
+R1 N009 0 5.5k
+M1 N001 Vbias2 Vbias1 N001 PMOS l=22n w=44n
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Harshdeep\AppData\Local\LTspice\lib\cmp\standard.mos
+.inc 22nm.txt
+.tran 1m
+.backanno
+.end
